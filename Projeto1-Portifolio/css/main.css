@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', serif;    
+}
+/* ============= HEADER ============= */
+.box-dev {
+    margin: 0 0 2em 0;
+    padding: 1em;
+    border-bottom: 4px solid rgb(64, 66, 69);
+}
+
+.logo-dev {    
+    margin: 0.67em 0;
+    border: 5px solid rgb(64, 66, 69);
+    border-radius: 0.5em;
+}
+
+.box-dev_texto {
+    text-align: right;
+}
+
+.box-dev h1 {
+    margin: 0.67em 0 0.20em;
+}
+
+.nome-dev {
+    font-family: 'Arial', cursive;
+    color: rgb(64, 66, 69);
+}
+
+.legenda-dev {
+    text-transform: uppercase;
+    color: rgb(112, 155, 164);
+}
+
+@media only screen and (max-width: 500px) {
+    .box-dev_logo {
+        text-align: center;
+    }
+
+    .box-dev_texto {
+        text-align: center;
+    }
+}
+
+/* ============= BANNER ============= */
+
+#banner {
+    margin-bottom: 2em;
+}
+
+.banner-estilo {
+    border: 2px solid rgb(64, 66, 69);;
+}
+
+/* ============= JOBS ============= */
+
+.ultimosJobs-titulo {
+    text-align: center;
+    color: rgb(64, 66, 69);;
+    border-radius: 0.25em;
+    border: 2px solid rgb(64, 66, 69);
+    padding: 0.25em;
+}
+
+.box-jobs {
+    margin: 1em;
+    text-align: center;    
+}
+
+.projeto-box {
+    margin-bottom: 1em;
+}
+
+.img-projeto-estilo {
+    border: 2px solid rgb(64, 66, 69);
+    object-fit: cover;
+    width: 350px;
+    height: 300px;    
+}
+
+.jobs-titulo {
+    padding: 0.25em;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+    color: rgb(102, 94, 106);
+    border-top: 1px solid rgb(112, 155, 164);;
+    border-bottom: 1px solid rgb(112, 155, 164);;
+}
+
+.ver-mais {
+    margin-top: 0.5em;
+    background-color: rgb(64, 66, 69);
+    border: 1px solid rgb(102, 94, 106);
+    color: #fff;
+}
+
+.ver-mais:hover {
+    background-color: rgb(102, 94, 106);
+    border: 1px solid rgb(64, 66, 69);
+    color: #fff;    
+}
+
+/* ============= FOOTER ============= */
+
+.footer-estilo {
+    background-color: rgb(64, 66, 69);
+    color: #fff;
+    text-align: center;
+    padding-top: 1em;
+    border-radius: 0.5em 0.5em 0 0;
+}
